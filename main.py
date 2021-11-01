@@ -62,7 +62,7 @@ def main():
     
     st.sidebar.image('logo2.png')
     st.sidebar.title('AGA x Happy Tummy')
-    st.sidebar.subheader('Zero Waste, Zero Hunger')
+    st.sidebar.subheader('Zero Hunger, Zero Waste')
     st.sidebar.write('___')
     st.sidebar.info('To make a meaningful contribution through AGA: (1) Have look at our real-time demand orders from the community. (2) Predict the demand of the product in the upcoming day(s).')
     
