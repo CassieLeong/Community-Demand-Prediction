@@ -47,4 +47,15 @@ A centralised platform where AGA/NGOs-Partners-Community can tap into their own 
 The application will provide a dashboard/platform to conveniently and effectively display the various analytics and predictions. The outcome will be actionable items for the AGA/NGOs-Partners-Community to address the issues.
 
 ## Run
-streamlit run main.py
+Prerequisite: Python3
+
+Follow below instructions to download and deploy the solution.
+
+  1. Open Command Line Interface
+  2. Run the command 'git clone https://github.com/CassieLeong/Community-Demand-Prediction.git' to clone the repository
+  3. Run the command 'pip install -r requirements.txt' to install all the dependencies
+  5. Run the command 'streamlit run main.py'
+
+If there're any challenges while installing dependencies, run the command below to upgrade pip and try again.
+
+  python -m pip install --upgrade pip
