@@ -46,4 +46,5 @@ A centralised platform where AGA/NGOs-Partners-Community can tap into their own 
 
 The application will provide a dashboard/platform to conveniently and effectively display the various analytics and predictions. The outcome will be actionable items for the AGA/NGOs-Partners-Community to address the issues.
 
-
+## Run
+streamlit run main.py
