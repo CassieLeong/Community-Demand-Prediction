@@ -2,8 +2,8 @@
 
 This repository showscase the web application that the team blindSpot has created for the hackathon. 
 
-**Happy Tummy
-******Zero Waste, Zero Hunger
+** Happy Tummy
+****** Zero Waste, Zero Hunger
 
 SDGs Considerations
 
@@ -14,7 +14,7 @@ SDG 9: Industry, Innovation, Infrastructure (focusing on using innovative techno
 SDG12: Responsible consumption and Production 
 SDG 12.3 : Help AGA with AI to focus on SDG target 12.3 which aims at halving per capita global food waste at the retail and consumer levels and reducing food losses along production and supply chains, including post- harvest losses
 
-**Problem Identification
+** Problem Identification
 
 - Partners making unwanted donations to AGA/NGOs
 
@@ -28,7 +28,7 @@ SDG 12.3 : Help AGA with AI to focus on SDG target 12.3 which aims at halving pe
 
 - Traditionally these NGOs are not equipped or funded to use the latest AI Data Driven Technology to help provide these services efficiently with the best consumer experience. 
 
-**High-Level Concept
+** High-Level Concept
 
 An integrated management platform which will benefit all the parties (AGA/NGOs, Partners, Communities and Families).
 Strong analytics and predictions (backed by AI) to understand the trends in demands vs supply:
@@ -40,7 +40,7 @@ Real-time inventory data
 Findings/trends accessible to AGA/NGOs-Partners-Community to allow actionable items 
 Work with AGA/NGOs-Partners-Community and provide consulting and advice on actionable items to address issues
 
-**Analytics and Predictions Dashboard
+** Analytics and Predictions Dashboard
 
 A centralised platform where AGA/NGOs-Partners-Community can tap into their own data to understand the behaviour of the supply/distribution of donations by the partners against the needs of the communities.
 
