@@ -60,7 +60,7 @@ def tsPredFig(df, item, predictDays):
 ################################################################################################
 def main():
     
-    st.sidebar.image('logo.png')
+    st.sidebar.image('logo2.png')
     st.sidebar.title('AGA x Happy Tummy')
     st.sidebar.subheader('Zero Waste, Zero Hunger')
     st.sidebar.write('___')
