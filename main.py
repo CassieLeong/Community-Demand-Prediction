@@ -16,28 +16,21 @@ st.set_page_config(
 ################################################################################################
 #prohetPred
 
-def tsPredTable(df, predictDays):
-
-    #transformation
-    vc = df.iloc[:,1].value_counts(dropna=True, sort=True)
-    dfT = pd.DataFrame(vc)
-    dfT = dfT.reset_index()
-    dfT.columns = ['ds', 'y']
-    dfT.sort_values(by=['ds'])
-
-    #initiate Prophet
-    m = Prophet()
-    m.fit(dfT)
-
-    #make future dataset in days
-    future = m.make_future_dataframe(periods=predictDays, freq='d')
-
-    #forecast
-    forecast = m.predict(future)
-
-    return forecast
-
 def tsPredFig(df, item, predictDays):
+    """
+    This function is to predict the community demand using Prophet Time Series Algorithms. 
+    
+    Args:
+    df (dataframe)  : dataset
+    item (str)      : product type that was selected
+    predictDays(int): days for prediction
+    
+    Returns:
+    forecast        : dataframe consists of yhat, trend, ds
+    fig             : time series graph
+    fig1            : trend graph
+    
+    """
 
     #transformation
     df = df[['ProductType','OrderDate']]
@@ -63,29 +56,6 @@ def tsPredFig(df, item, predictDays):
     fig2 = m.plot_components(forecast,figsize=(20, 12))
 
     return forecast, fig, fig2
-
-def tsPredTrend(df, predictDays):
-
-    #transformation
-    df = df[['ProductType','OrderDate']]
-    vc = df.iloc[:,1].value_counts(dropna=True, sort=True)
-    dfT = pd.DataFrame(vc)
-    dfT = dfT.reset_index()
-    dfT.columns = ['ds', 'y']
-    dfT.sort_values(by=['ds'])
-
-    #initiate Prophet
-    m = Prophet()
-    m.fit(dfT)
-
-    #make future dataset in days
-    future = m.make_future_dataframe(periods=predictDays, freq='d')
-
-    #forecast
-    forecast = m.predict(future)
-    fig = m.plot_components(forecast,figsize=(20, 12))
-
-    return fig
 
 ################################################################################################
 def main():
